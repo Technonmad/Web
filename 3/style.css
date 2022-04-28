@@ -3,7 +3,7 @@ header{
     text-align: center;
     display: flex;
     justify-content: center;
-    padding-bottom: 80px;
+    padding-bottom: 7%;
 }
 ul{
     list-style: none;
@@ -22,57 +22,66 @@ li{
 a{
     text-decoration: none;
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial;
     font-size: 15pt;
 }
 
 content{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
     margin-bottom: 2%;
     color: #50372b;
+    width: 93%;
+    margin-left: 0;
+    align-self: center;
 }
 
 content2{
     display: flex;
     flex-direction: column;
-    width: 60%;
+    width: 850px;
 }
 
 .contentText{
     margin-left: 0%;
-    font-size: 15pt;
+    font-size: 17pt;
+    margin: 0;
+    padding-top: 2%;
 }
 
 .footerText{
     width: 80%;
-    font-size: 13pt;
+    font-size: 15pt;
+    margin: 0;
+    padding-top: 10px;
 }
 
 h1{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia;
     font-style: italic;
+    font-weight: 400;
     margin-bottom: 0;
 }
 
 .ourHistory{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-style: italic;
+    /*font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;*/
     color: #50372b;
     margin-bottom: 0;
     margin-left: 0%;
-    margin-top: 5%;
+    margin-top: 3%;
 }
 
 .line{
-    width: 92%;
-    margin-left: 4%;
+    width: 93%;
+    align-self: center;
 }
 
 things{
-    width: 92%;
-    margin-left: 4%;
+    width: 93%;
+    margin: 0;
+    align-self: center;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -82,12 +91,12 @@ things{
 
 .thingText{
     width: 80%;
-    font-size: 13pt;
+    font-size: 17pt;
     align-self: flex-start;
 }
 
 thing1,thing2,thing3{
-    width: 30%;
+    width: 450px;
 }
 
 footer{
@@ -119,15 +128,18 @@ header{
 .menuPlusContent{
     position: absolute;
     z-index: 9;
-    top: 25%;
+    top: 23%;
     display: flex;
     flex-direction: column;
     width: 80%;
 }
 
 .man{
-    height: 100%;
+    height: 290px;
     align-self: center;
+    width: 380px;
+    margin: 0;
+    padding-top: 25px;
 }
 
 .menu{
@@ -138,4 +150,7 @@ header{
 }
 nav{
     width: 93%;
+}
+#breaker{
+    width: 185px;
 }
