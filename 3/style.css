@@ -28,7 +28,7 @@ a{
 
 content{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     flex-wrap: wrap;
     margin-bottom: 2%;
     color: #50372b;
@@ -48,6 +48,8 @@ content2{
     font-size: 17pt;
     margin: 0;
     padding-top: 2%;
+    font-family: Arial;
+    
 }
 
 .footerText{
@@ -55,6 +57,7 @@ content2{
     font-size: 15pt;
     margin: 0;
     padding-top: 10px;
+    font-family: Arial;
 }
 
 h1{
@@ -70,7 +73,7 @@ h1{
     color: #50372b;
     margin-bottom: 0;
     margin-left: 0%;
-    margin-top: 3%;
+    margin-top: 0;
 }
 
 .line{
@@ -93,6 +96,7 @@ things{
     width: 80%;
     font-size: 17pt;
     align-self: flex-start;
+    font-family: Arial;
 }
 
 thing1,thing2,thing3{
