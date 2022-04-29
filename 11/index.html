@@ -1,0 +1,37 @@
+<DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <title>Dictionary</title>
+    </head>
+
+    <body>
+        <div class="content" >
+
+            <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon3">Ваше слово</span>
+                <input type="text" class="form-control" id="word" aria-describedby="basic-addon3" onkeyup="getWord()">
+            </div>
+            <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon3">Перевод</span>
+                <input type="text" class="form-control" id="ru-word" aria-describedby="basic-addon3" readonly>
+            </div>
+            <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon3">Транскрипция</span>
+                <input type="text" class="form-control" id="trans" aria-describedby="basic-addon3" readonly>
+            </div>
+
+            <div id="wordsList">
+
+            </div>
+
+
+        </div>
+        <script src="./script.js"></script>
+    </body>
+
+    </html>
